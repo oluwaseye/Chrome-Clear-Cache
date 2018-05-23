@@ -1,0 +1,27 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon-off.png",
+      "name": "No Cache",
+      "title": "No Cache"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval';object-src 'self';",
+   "description": "Have websites load without cache.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwtgj9OefkyL3XhuSBZMC1Qly56GzSVGdmMd13Fml/kOPdtsmFX/iyCzt/wyGoPGWCgRoMzQnpCNydloxSlDxqPum1kctEdjy8wJ0rRyL3UQDqKpqvpYf2vDkGmhxMBYFbzvsHfkNCzSHbhQ3MrpnMHzE2z2XP7soZxtZECOeyzhIgOgWcxON92GnhcEDfUS7cE393i/ax3+e8pmiZqMZvJx8us//I/MjltYqDkHkbfIvTFvLKm/BQjx4btS2Ms6aYZpav8xlN40xnqj5McbN8AOkcAa/4uty1k8NGUiTyeT/xLgqzNjHIZyvLwW/IizQPG8v4eXgFgDV/SSY5/jxiQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "19.0.1028.0",
+   "name": "No Cache",
+   "offline_enabled": false,
+   "options_page": "options.html",
+   "permissions": [ "browsingData", "\u003Call_urls>", "tabs", "http://*/*", "https://*/*", "webRequest", "webRequestBlocking", "webNavigation", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}
