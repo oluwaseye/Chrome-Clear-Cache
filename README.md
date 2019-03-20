@@ -3,9 +3,15 @@
 
 ## Have websites load without cache.
 
-Load website each time without browser cache. NO CACHE clears your browser cache before web pages load. You can turn it On or Off anytime. Enjoy!
+Load websites without utilizing browser cache.
 
-### You can get the extension on Google Chrome Webstore 
+The Chrome extension **NO CACHE** clears the browser cache before each web page loads. 
+
+You can turn it On or Off anytime. 
+
+Enjoy!
+
+### You can get the extension on the Google Chrome Webstore here:
 https://chrome.google.com/webstore/detail/no-cache/hckocmggmdfdnjjomghmhllibmdobdll
 
 
